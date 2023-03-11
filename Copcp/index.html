@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme Made By www.w3schools.com -->
+    <title>Bootstrap Theme Company Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat"
+          rel="stylesheet"
+          type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato"
+          rel="stylesheet"
+          type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <script>
+        $(document).ready(function () {
+            $("#RAID-tab").click();
+        });
+    </script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-user"></span>&nbsp;18324</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            TASKS<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#taskone">Taskone</a></li>
+                            <li><a href="#taskeight">Taskeight</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>COPCP by Wiengpink 18324</h1>
+        <p>Privacy and Contingency Plan Demo</p>
+        <div class="form-group row">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+                <form>
+                    <div class="input-group">
+                        <input type="email"
+                               class="form-control"
+                               size="50"
+                               placeholder="Email Address"
+                               required />
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-success">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-3"></div>
+        </div>
+    </div>
+
+    <!-- Container (Task one Section) -->
+    <div id="taskone" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/frame.png"
+                     alt="scan by your phone"
+                     style="float: left; margin-left: -15px" />
+            </div>
+            <div class="col-sm-8">
+                <h2>CONTRIBUTE TO ORGANIZATIONAL PRIVACY AND CONTINGENCY PLANS</h2>
+                <a href="/download/18324_COPCP_Assessment_Task_1.pdf" download>Download Assessment One</a> ||
+                <a href="/download/18324_COPCP_Assessment_Task_2.pdf" download>Download Assessment Two</a>
+                <img src="images/beautiful.GIF"
+                     alt="working online"
+                     class="img-thumbnail"
+                     style="margin: 20px 20px; float: right" />
+                <h2>Identifying Critical System 👀</h2>
+                <h4>
+                    What factors would need to be considered in determining whether this
+                    new system will be critical to the business and what the impact
+                    might be if it fails?
+                </h4>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse1">Good System Need</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse collapse">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Report daily profit and lost using system</li>
+                                    <li>System data back up</li>
+                                    <li>Email to contact customer</li>
+                                    <li>The best system could save labour cost</li>
+                                    <li>How much money could be saved if open online shop</li>
+                                    <li>…</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse2">Bad Side System</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>If fail down, you will be lost all data</li>
+                                    <li>Need some skill person to support your system</li>
+                                    <li>It will cost online server</li>
+                                    <li>…</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse3">Your system need keep support</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img src="images/systemsupport.jpg"
+                                     alt="working online"
+                                     class="img-thumbnail" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse4">Who will use the system?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img src="images/workingonline.jpg"
+                                     alt="working online"
+                                     class="img-thumbnail" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse5">Need to consider</a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>What type of system will we need?</li>
+                                    <li>How will we manage the user’s data?</li>
+                                    <li>
+                                        How are we going to connect the warehouse
+                                        with the new system?
+                                    </li>
+                                    <li>
+                                        Are the products going to increase their cost
+                                        with this inversion?
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="images/MRBIN.GIF"
+                     alt="working online"
+                     class="img-thumbnail"
+                     style="margin: 20px 20px; float: right" />
+                <h2>Analysing critical areas 💖</h2>
+                <h4>
+                    Critical areas need backup. In order to keep your data safe, you
+                    need make backup system in different location. Just incase your data
+                    lost...
+                </h4>
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.
+                </p>
+                <br /><button class="btn btn-default btn-lg">Get in Touch</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Task four Section) -->
+    <div id="taskfour" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Identifying possible threats</h2>
+                <br />
+                <h4>
+                    A small communications company, 4phones, is about to introduce an e-commerce system. A list of the possible
+                    threats to the system has been provided below.
+                </h4>
+                <h4>Table: Threats</h4>
+                <table class="table table-bordered table-striped table-condensed">
+                    <thead>
+                        <tr style="background-color: #FF7C2C; color: white">
+                            <th>Threat</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Hackers attempting to get to the data stored on the site.
+                                <ul>
+                                    <li>Change data</li>
+                                    <li>Delete data</li>
+                                    <li>
+                                        Add fake or wrong data
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                External*
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Hardware failures that stop the site operating.
+                            </td>
+                            <td>Internal</td>
+                        </tr>
+                        <tr>
+                            <td>Denial of service attacks to bring the service down.</td>
+                            <td>External</td>
+                        </tr>
+                        <tr>
+                            <td>Data destruction by any means such as a user deleting a file.</td>
+                            <td>Internal</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Misuse of information by internal staff.
+                            </td>
+                            <td>Internal</td>
+                        </tr>
+                        <tr>
+                            <td>Power problems so site is down.</td>
+                            <td>External</td>
+                        </tr>
+                        <tr>
+                            <td>Overloaded site so response is slow.</td>
+                            <td>External</td>
+                        </tr>
+                        <tr>
+                            <td>Customers falsifying information to avoid payment.</td>
+                            <td>External</td>
+                        </tr>
+                        <tr>
+                            <td>Incorrect information such as wrong prices so customers pay too little.</td>
+                            <td>Internal</td>
+                        </tr>
+                        <tr>
+                            <td>Incorrect information such as wrong quantity in stock so customers have to wait for delivery.</td>
+                            <td>Internal</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Major disaster so site is down.
+                                <ul>
+                                    <li>Earthquake, bushfire, terrorist</li>
+                                </ul>
+                            </td>
+                            <td>External*</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Container (Task five Section) -->
+    <div id="taskfive" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <img src="images/threats.png"
+                     alt="threats"
+                     style="width: 80%; height: auto;" />
+            </div>
+            <div class="col-sm-8">
+                <h2>Identifying critical systems and threats</h2>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse1">What are the critical data and software areas for this system?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Questions random select</li>
+                                    <li>Students’ answers</li>
+                                    <li>Test results</li>
+                                    <li>Student’s data ordered</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse"
+                                   data-parent="#accordion"
+                                   href="#collapse2">What are the potential threats to the system and testing facility?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>IfHack the question</li>
+                                    <li>
+                                        Get answer key
+                                    </li>
+                                    <li>System is going down</li>
+                                    <li>Back up results’ data</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Task six Section) -->
+    <div id="tasksix" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Evaluating preventive and recovery options</h2>
+                <br />
+                <h4>
+                    Table : preventive and recovery options
+                </h4>
+                <table class="table table-bordered table-striped table-condensed">
+                    <thead>
+                        <tr style="background-color: #FF7C2C; color: white">
+                            <th>Threat</th>
+                            <th>Options</th>
+                            <th>Cost (1-5)</th>
+                            <th>
+                                Business
+                                requirement
+                                (1-5)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Disasters that stop the centre operating
+                                such as fire, flood, earthquake
+                            </td>
+                            <td>
+                                Backup System in Different location
+                            </td>
+                            <td>5</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Hardware problems that stop system
+                                operating
+                            </td>
+                            <td>Best quality hardware</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Credit card fraud. With the short time
+                                frame the student could be tested before
+                                any credit card discrepancy was identified.
+                            </td>
+                            <td>...</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Student not turning up and exam lapses so
+                                $50 is lost.
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISDN links broken delaying download of
+                                exams
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Hackers who may try to access test data or
+                                student data
+                            </td>
+                            <td>Fire wall</td>
+                            <td>1</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Internal unauthorised access to test data or
+                                student data
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Theft or misappropriation of test
+                                certificates
+                            </td>
+                            <td>...</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Container (Task seven Section) -->
+    <div id="taskseven" class="container-fluid text-center">
+        <h2>Presenting a strategic recommendation</h2>
+        <br />
+        <hr />
+        <div class="row h-100">
+            <div class="col-md-8 col-sm-12">
+                <div class="row">
+                    <div class="col-md-2 mb-3v text-left">
+                        <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="RAID-tab" data-toggle="tab" href="#RAID" role="tab" aria-controls="RAID" aria-selected="true">What RAID may give 4phones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="against-tab" data-toggle="tab" href="#against" role="tab" aria-controls="against" aria-selected="false">Threats to be safeguarded against</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="analysis-tab" data-toggle="tab" href="#analysis" role="tab" aria-controls="analysis" aria-selected="false">
+                                    Cost benefit analysis (Assume 50% would go
+                                    elsewhere if the system is down)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="supports-tab" data-toggle="tab" href="#supports" role="tab" aria-controls="supports" aria-selected="false">How RAID supports the business</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-md-4 -->
+                    <div class="col-md-10 text-left">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade active" id="RAID" role="tabpanel" aria-labelledby="RAID-tab">
+                                <p><img src="/images/question.png" style="width: 30px; height:auto;"> What RAID may give 4phones</p><hr />
+                                <p>RAID 5 or 6</p>
+                            </div>
+                            <div class="tab-pane fade" id="against" role="tabpanel" aria-labelledby="against-tab">
+                                <p><img src="/images/question.png" style="width: 30px; height:auto;"> Threats to be safeguarded against</p><hr />
+                                <p>
+                                    Hardware failures such as power failures or major
+                                    disasters such as fire.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="analysis" role="tabpanel" aria-labelledby="analysis-tab">
+                                <p>
+                                    <img src="/images/question.png" style="width: 30px; height:auto;"> Cost benefit analysis (Assume 50% would go
+                                    elsewhere if the system is down)
+                                </p><hr />
+                                <p>They could find some ways to minimize times that the system is down.</p>
+                            </div>
+                            <div class="tab-pane fade" id="supports" role="tabpanel" aria-labelledby="supports-tab">
+                                <p><img src="/images/question.png" style="width: 30px; height:auto;"> How RAID supports the business</p><hr />
+                                <p>
+                                    A reliable infrastructure for systems and data management is critical for any business. We’re now in an
+                                    era of big data—where we can extract important insights from a list of numbers and text. One of the
+                                    most popular storage management solutions is RAID (Redundant Array of Independent (or
+                                    Inexpensive) Disks. We’ll look at what it exactly does and how you can set it up to improve your
+                                    business productivity and storage management.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 my-auto">
+                <img src="/images/task7.PNG" style="width: 100%; height: auto;" />
+            </div>
+        </div>
+
+
+        <!-- Container (Task eight Section) -->
+        <div id="taskeight" class="container-fluid">
+            <h2>Computer virus protection procedures </h2>
+            <div class="row text-left">
+                <div class="col-md-4 col-sm-12">
+                    <img src="/images/virus.PNG" style="width: 100%; height: auto;" />
+                </div>
+                <div class="col-md-8 col-sm-12">
+
+                    <p>
+                        In order to safeguard against viruses the following procedures must be
+                        adhered to by all staff:
+                    </p>
+                    <p>
+                        Standard virus protection software must be installed on all PCs with
+                        updates organised automatically through the network.
+                    </p>
+                    <p>Virus protection software must not be stopped or circumvented in any way</p>
+                    <p>The virus software will be configured to run permanently so that files are always checked prior to opening.</p>
+                    <p>Any software which recommends that the virus checker be disabled must not be installed without consulting the IT department.</p>
+                    <p>
+                        Users must never disable the virus checker without authority from IT.
+                    </p>
+                    <p>
+                        Applications will be configured to warn of the use of macros, which could be viruses. Macros should only be enabled if the
+                        document source can be verified and trusted.
+                    </p>
+
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+
+
+                    <p>
+                        If any emails or email attachments are received from an unknown e-mail address or if any attachment has macros this should
+                        not be opened or macros enabled until the file has been checked by IT.
+                    </p>
+                    <p>
+                        The IT department will obtain regular updates (daily) to virus files, which will be installed on the network in order to
+                        automatically update workstations.
+                    </p>
+                    <p>
+                        All software, whether loaded from a CD-ROM or downloaded from the Intranet, must be scanned before opening.
+                    </p>
+                    <p>
+                        If any virus activity is suspected the user must shut down their workstation and inform the IT department.
+                    </p>
+                    <p>All computers will be regularly scanned for viruses on a daily basis as part of the start-up activity</p>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>Hardware recommendations</h2>
+                    <br />
+                    <h4>
+                        The current tape unit is too slow and does not have the capacity to store a full backup on a single tape. Typical hardware
+                        specifications and costs are:
+                    </h4>
+                    <table class="table table-bordered table-striped table-condensed">
+                        <thead>
+                            <tr style="background-color: #FF7C2C; color: white">
+                                <th>Capacity</th>
+                                <th>Speed (read/write)</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1TB</td>
+                                <td>Normal</td>
+                                <td>$899</td>
+                            </tr>
+                            <tr>
+                                <td>2TB</td>
+                                <td>Normal</td>
+                                <td>$1099</td>
+                            </tr>
+                            <tr>
+                                <td>4TB</td>
+                                <td>Fast</td>
+                                <td>$1299</td>
+                            </tr>
+                            <tr>
+                                <td>8TB</td>
+                                <td>Very Fast</td>
+                                <td>$1799</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <br /><button class="btn btn-default btn-lg">Get in Touch</button>
+                </div>
+                <div class="col-sm-4">
+                    <br /><br />
+                    <span class="glyphicon glyphicon-duplicate logo"></span>
+
+                    <img src="images/harddisk.jpg"
+                         alt="disk compare"
+                         class="img-thumbnail"
+                         style="margin-top: 92px" />
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <!-- Container (Contact Section) -->
+        <div id="contact" class="container-fluid bg-grey">
+            <h2 class="text-center">CONTACT</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p>
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        wic.nsw.edu.au
+                    </p>
+                    <!--  <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>-->
+                    <p>
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        wiengpink.s@gmail.com
+                    </p>
+                </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control"
+                               id="name"
+                               name="name"
+                               placeholder="Name"
+                               type="text"
+                               required />
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control"
+                               id="email"
+                               name="email"
+                               placeholder="Email"
+                               type="email"
+                               required />
+                    </div>
+                </div>
+                <textarea class="form-control"
+                          id="comments"
+                          name="comments"
+                          placeholder="Comment"
+                          rows="5"></textarea><br />
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image of location/map -->
+                    <img src="images/map.jpg"
+                         class="w3-image w3-greyscale-min"
+                         style="width: 100%" />
+
+                    <footer class="container-fluid text-center"
+                            style="background-color: lightyellow">
+                        <a href="#myPage" title="To Top">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                        </a>
+                        <p>
+                            This site powered by 18324 Wiengpink
+
+                            </a>
+                        </p>
+                    </footer>
+                    <!-- Load external JavaScript -->
+                    <script src="script.js"></script>
+</body>
+</html>
